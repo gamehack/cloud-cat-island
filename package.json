@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "npm run validate:assets && vite build",
     "preview": "vite preview",
-    "test": "node --test"
+    "test": "node --test",
+    "validate:assets": "node scripts/validate-cat-assets.mjs"
   },
   "dependencies": {
     "three": "^0.180.0"
