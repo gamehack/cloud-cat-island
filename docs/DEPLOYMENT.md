@@ -26,3 +26,16 @@
 ## 自动部署
 
 生产分支 `main` 已配置 GitHub 自动部署。提交变化后应以 Cloudflare Pages 项目面板中的实际构建结果为准，并保持代码与文档同步。
+
+## 2026-11-11 V0.2 发布
+
+- Commit：`0de523c4fda6cf060843abf62db3c966872cad19`
+- Cloudflare Pages deployment：`116ba529-e6d4-44b9-9b8d-5b446f23eb31`
+- 首批 GitHub 自动构建任务滞留 queued；通过 Cloudflare Pages Retry 接口重新触发最新提交。
+- Retry 任务的 queued、initialize、clone_repo、build、deploy 阶段均返回 success。
+- 内容：岛屿环境装饰、猫咪四肢及尾巴动态、游客四肢、移动端摇杆、互动按钮状态。
+- [x] Cloudflare 构建及部署成功
+- [ ] 手机端交互、性能及视觉验收
+- [ ] 多人联机上线
+
+注意：发布成功不等于已完成手机浏览器功能测试。
