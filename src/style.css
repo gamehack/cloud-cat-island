@@ -15,3 +15,5 @@
 .album-dialog{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,420px);max-height:75vh;overflow:auto;border-radius:22px;padding:20px;background:#fffefa;box-shadow:0 12px 50px #0004;pointer-events:auto}
 .album-dialog[hidden]{display:none}.album-dialog header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.album-content{display:grid;grid-template-columns:1fr 1fr;gap:10px}.album-entry{padding:15px 8px;background:#edf3e9;border-radius:12px;font-size:13px;text-align:center}
 @media(max-width:430px){.feature-bar{top:calc(env(safe-area-inset-top) + 164px);left:12px;right:12px;justify-content:center}.feature-bar button{padding:7px 10px;font-size:11px}.album-dialog{padding:15px}}
+
+.focus-button{position:absolute;right:18px;bottom:185px;background:#ffffffe8;border:0;border-radius:999px;padding:12px 17px;pointer-events:auto;cursor:pointer;box-shadow:0 4px 20px #0002;color:#29453a;font-size:13px}@media(pointer:coarse){.focus-button{bottom:190px;right:15px}}
